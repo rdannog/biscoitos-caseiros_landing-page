@@ -55,11 +55,12 @@
     font-family: 'Fredoka One', cursive;
 }
 .logo{
-    width: 36.5%;
+    width: 36%;
 }
 .input{
     width: 14vw;
     height: 6vh;
+    font-size: 1.1vw;
     border: none;
     border-radius: 20px;
     padding-left: 3vw;
@@ -91,16 +92,18 @@
     justify-content: space-between;
 }
 .navigation{
-    width: 50%;
+    width: 43%;
 }
 .navigation_list{
     padding: 4vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .navigation_list li{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
+    font-weight: 300;
+    padding-right: 1.2vw;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -125,10 +128,30 @@
     height: 75vh;
     background-image: url('../img/fundo\ doces.png');
     background-size: cover;
+    background-position: right;
 }
 .main--intro_content{
-    width: 50%;
+    width: 60%;
+    height: 100%;
+    text-transform: uppercase;
+    padding-left: 7vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+.title{
+    font-size: 4vw;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 18vh;
+}
+.subtitle{
+    font-size: 2.95vw;
+    font-weight: 300;
+    
+}
+.shop-btn{
+    width: 8vw;
+    margin-top: 3vh;
 }
