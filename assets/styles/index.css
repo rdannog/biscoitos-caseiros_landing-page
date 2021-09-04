@@ -177,11 +177,11 @@
     height: 15vh;
 }
 .background-img{
-    width: 20vw;
     height: 19vh;
     background-image: url('../img/Grupo\ 19.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -192,7 +192,7 @@
 }
 .text{
     width: 50%;
-    margin-left: 4vw;
+    margin-left: 10vw;
 }
 .p{
     font-size: 1.3vw;
@@ -206,4 +206,84 @@
     width: 0.2vw;
     height: 20vh;
     background-color: #707070;
+}
+.section--products{
+    width: 100%;
+    height: 15vh;
+    font-size: 2.2vw;
+    font-weight: 200;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.products_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products_content-container{
+    width: 86.5%;
+    height: 100%;
+    border-bottom: solid 2px black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.image{
+    width: 27.5vw;
+}
+.content--products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content--products p{
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-weight: lighter;
+    margin-top: 4vh;
+}
+.content--products button{
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    background-color: #F2DBF0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content--products button img{
+    width: 1.5vw;
+}
+.content--btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content--btn button{
+    width: 8vw;
+    height: 6vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+
+    position: absolute;
+}
+.products--display{
+    width: 100%;
+    height: 20vh;
+    font-size: 2vw;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom: 4vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
