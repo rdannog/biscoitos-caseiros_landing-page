@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+}
+
+.header--intro{
+    width: 100%;
+    height: 8vh;
+    color: #707070;
+    font-size: 1vw;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header--box{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header--box_div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.zap{
+    padding-left: 6vw;
+}
+.icon{
+    height: 4vh;
+    padding-right: 0.5vw;
+}
+.header--main-menu{
+    width: 100%;
+    height: 10vh;
+    background-color: #F2DBF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu_item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-menu_item h1{
+    font-size: 3vw;
+    font-weight: 200;
+    font-family: 'Fredoka One', cursive;
+}
+.logo{
+    width: 36.5%;
+}
+.input{
+    width: 14vw;
+    height: 6vh;
+    border: none;
+    border-radius: 20px;
+    padding-left: 3vw;
+    background-image: url('../img/Layer\ 3.svg');
+    background-size: 4vh;
+    background-repeat: no-repeat;
+    background-position: 0.5vw center;
+}
+.menu_item-login{
+    margin-right: 3vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-menu_item-shop{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5vw;
+}
+.shop-icon{
+    height: 4.5vh;
+}
+.header--navigation{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    width: 50%;
+}
+.navigation_list{
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation_list li{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navigation_icons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4.5vw;
+}
+.nav_icon{
+    height: 4vh;
+    padding-right: 2vw;
+    cursor: pointer;
+}
+.main--intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main--intro_background{
+    width: 86.5%;
+    height: 75vh;
+    background-image: url('../img/fundo\ doces.png');
+    background-size: cover;
+}
+.main--intro_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
